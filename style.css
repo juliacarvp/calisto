@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    padding: 1.5rem;
+    background-color: orchid;
+}
+
+.illustration{
+    width: 100%;
+    height: 91vh;
+    background: url(img/pexels-mikhail-nilov-6835872.jpg) no-repeat center;
+    background-size: cover;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 60px;
+    font-family: 'Playfair Display SC', serif;
+    margin-left: 30px;
+}
+
+.logo img{
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right a{
+    padding: 20px 30px;
+    background: rgb(64, 0, 128);
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.right a:hover{
+    background: black;
+}
+
+.right button{
+    padding: 15px 20px;
+    border: none;
+    background: black;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line{
+    height: 3px;
+    width: 32px;
+    background: white;
+    margin: 5px;
+}
+
+.colors{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.program{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+#p1{
+    background: rgb(111, 0, 128);
+}
+
+#p2{
+    background: rgb(135, 20, 60);
+}
+
+#p3{
+    background: rgb(84, 20, 149);
+}
+
+.img-program{
+    width: 80%;
+    height: 80%;
+}
+
+.program #img1{
+    background: url(img/Colors/pexels-ekaterina-bolovtsova-7658066.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.program #img2{
+    background: url(img/Colors/pexels-phgaltri-11813320.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.program #img3{
+    background: url(img/Colors/pexels-ekaterina-bolovtsova-7658575.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.content{
+    height: 40vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    line-height: 22px;
+    align-items: center;
+}
+
+.content a{
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+}
+
+.content a:hover{
+    color: purple;
+}
+
+.c2{
+    margin: 0 200px;
+}
+
+.c3{
+    height: 100px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    background: purple;
+    margin: 20px 5px 5px 5px;
+}
+
+.box:hover{
+    background: white;
+}
+
+.social-media img{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.name{
+    height: 25vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.name h2{
+    font-size: 80px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.name img{
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+    margin-right: 30px
+}
+
+@media (max-width: 1040px){
+    .colors{
+        width: 100%;
+        height: 210vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 900px){
+    .right a{
+        display: none;
+    }
+
+    .c2{
+        margin: 0 90px;
+    }
+}
+
+@media (max-width: 700px){
+    body{
+        padding: 0;
+    }
+
+    .logo h1{
+        font-size: 45px;
+    }
+
+    .logo img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .right button{
+        padding: 5px 10px;
+    }
+
+    .illustration{
+        height: 70vh;
+    }
+
+    .content{
+        font-size: 16px;
+    }
+
+    .box{
+        background: purple;
+        margin: 10px 2px 2px 2px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-media img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .name h2{
+        font-size: 50px;
+    }
+
+    .c2{
+        margin: 0 50px;
+    }
+
+    .name img{
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media (max-width: 500px){
+    
+    .logo h1{
+        font-size: 40px;
+    }
+
+    .content{
+        font-size: 14px;
+    }
+
+    .c2{
+        margin: 0 40px;
+    }
+}
+
